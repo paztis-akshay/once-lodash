@@ -1,5 +1,5 @@
 function once(func) {
-    let result;
+    var result;
     return function(a, b) {
         if(func) {
             result = func.apply(this, arguments);
